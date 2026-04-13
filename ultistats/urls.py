@@ -32,8 +32,8 @@ urlpatterns = [
     path('game/<int:pk>/delete/', GameDeleteView.as_view(), name='delete_game'),
     
     # Login and Logout
-    path('login/', LoginView.as_view(template_name='ultistats/login.html', next_page='/ultistats'), name='login'),
-    path('logout/', LogoutView.as_view(next_page='/ultistats'), name='logout'),
+    path('login/', LoginView.as_view(template_name='ultistats/login.html', next_page='/'), name='login'),
+    path('logout/', LogoutView.as_view(next_page='/'), name='logout'),
     path('signup/', SignupView.as_view(), name='signup'),
 
     # Download

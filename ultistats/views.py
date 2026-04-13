@@ -17,8 +17,8 @@ from django.contrib.auth.forms import UserCreationForm
 from django.views.generic.edit import FormView
 from django.db.models import Sum, Q
 from django.contrib import messages
-from .forms import *
-from .models import *
+from .forms import GameForm, GameStatsFormSet
+from .models import Game, GameStats, Player, Team
 from PIL import Image
 from collections import Counter
 from .utils import scrape_college_news
@@ -127,7 +127,7 @@ class PlayerDetailView(DetailView):
 # List view for all teams
 class TeamListView(ListView):
     model = Team
-    template_name = 'team_list.html'  # Template to render the list
+    template_name = 'ultistats/team_list.html'  # Template to render the list
     context_object_name = 'teams'    # Name of the object in the template
 
     def get_context_data(self, **kwargs):
@@ -292,7 +292,7 @@ class TeamStatisticsView(DetailView):
 # List view for all games
 class GameListView(ListView):
     model = Game
-    template_name = 'game_list.html'
+    template_name = 'ultistats/game_list.html'
     context_object_name = 'games'
     
     def get_context_data(self, **kwargs):

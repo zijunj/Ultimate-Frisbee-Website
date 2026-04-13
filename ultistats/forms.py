@@ -4,7 +4,7 @@
 
 from django import forms
 from django.forms import inlineformset_factory, BaseInlineFormSet
-from .models import *
+from .models import Game, GameStats, Player
 
 class GameForm(forms.ModelForm):
     '''A form to add a Game to the database'''

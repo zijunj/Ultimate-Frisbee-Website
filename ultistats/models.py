@@ -5,14 +5,7 @@
 
 from django.db import models
 from datetime import date
-from django.utils.text import slugify
 from usau_scraper import *
-
-
-
-# Create your models here.
-
-from django.db import models
 
 class Team(models.Model):
     '''
