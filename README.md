@@ -1,7 +1,7 @@
 # UltiStats
 
 Live site:
-https://scientist-quotes-0e629fe0ba9a.herokuapp.com/ultistats/
+https://scientist-quotes-0e629fe0ba9a.herokuapp.com/
 
 Local development:
 
