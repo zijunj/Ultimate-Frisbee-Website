@@ -35,9 +35,6 @@ The UI below shows the team rankings filters and stats table that power the team
 
 ![UltiStats filter and stats UI](static/img/filter-stats-ui.svg)
 
-## ML Prediction Model Note
-
-This repository does not currently include the training or inference code for a machine learning prediction model. If you are pairing this app with an ML component, the intended fit is as a presentation layer for future matchup or outcome predictions alongside the existing stats pages. Until that model is added here, the app should be treated as a stats, rankings, and data-management platform rather than a production prediction system.
 
 ## Local Development
 
