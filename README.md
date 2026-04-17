@@ -3,7 +3,7 @@
 UltiStats is a Django web app for tracking and exploring college ultimate frisbee data. It lets users browse team rankings, search players, review team and game statistics, compare teams head to head, and export stats as CSV files. The app also pulls in recent USA Ultimate college news to keep the homepage current.
 
 Live site:
-https://scientist-quotes-0e629fe0ba9a.herokuapp.com/ultistats/
+https://scientist-quotes-0e629fe0ba9a.herokuapp.com/
 
 ## What The Project Does
 
