@@ -1,0 +1,98 @@
+<svg width="1400" height="860" viewBox="0 0 1400 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="860" fill="#EAF5FF"/>
+  <rect x="0" y="0" width="1400" height="96" fill="url(#nav)"/>
+  <rect x="0" y="92" width="1400" height="4" fill="#8B0000"/>
+  <circle cx="78" cy="48" r="26" fill="#F7FBFF"/>
+  <circle cx="78" cy="48" r="18" fill="#6A93D4"/>
+  <text x="128" y="58" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="700">ULTISTATS</text>
+  <text x="760" y="58" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="700">HOME</text>
+  <text x="900" y="58" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="700">STATS</text>
+  <text x="1050" y="58" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="700">GAMES</text>
+  <text x="1190" y="58" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="700">LOGIN</text>
+
+  <text x="700" y="162" text-anchor="middle" fill="#003366" font-family="Arial, sans-serif" font-size="36" font-weight="700">
+    TEAM RANKINGS
+  </text>
+
+  <rect x="120" y="208" width="1160" height="112" rx="16" fill="white" stroke="#C9DDF0"/>
+  <text x="170" y="246" fill="#173B63" font-family="Arial, sans-serif" font-size="16" font-weight="700">College Region</text>
+  <rect x="170" y="258" width="250" height="40" rx="8" fill="#F7FAFD" stroke="#B8C6D3"/>
+  <text x="190" y="284" fill="#4A5C6D" font-family="Arial, sans-serif" font-size="15">Select One</text>
+
+  <text x="465" y="246" fill="#173B63" font-family="Arial, sans-serif" font-size="16" font-weight="700">College Conference</text>
+  <rect x="465" y="258" width="270" height="40" rx="8" fill="#F7FAFD" stroke="#B8C6D3"/>
+  <text x="485" y="284" fill="#4A5C6D" font-family="Arial, sans-serif" font-size="15">Metro Boston DI</text>
+
+  <text x="780" y="246" fill="#173B63" font-family="Arial, sans-serif" font-size="16" font-weight="700">School Name</text>
+  <rect x="780" y="258" width="220" height="40" rx="8" fill="#F7FAFD" stroke="#B8C6D3"/>
+  <text x="800" y="284" fill="#7B8794" font-family="Arial, sans-serif" font-size="15">Enter school name</text>
+
+  <rect x="1036" y="256" width="108" height="44" rx="8" fill="#007BFF"/>
+  <text x="1090" y="284" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="15" font-weight="700">Submit</text>
+  <rect x="1162" y="256" width="118" height="44" rx="8" fill="#0056B3"/>
+  <text x="1221" y="284" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="15" font-weight="700">Clear Search</text>
+
+  <rect x="140" y="360" width="1120" height="390" rx="14" fill="white" stroke="#D8E5F0"/>
+  <rect x="140" y="360" width="1120" height="58" rx="14" fill="#003366"/>
+  <text x="210" y="396" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="700">Rank</text>
+  <text x="390" y="396" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="700">Team</text>
+  <text x="640" y="396" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="700">College Region</text>
+  <text x="870" y="396" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="700">College Conference</text>
+  <text x="1080" y="396" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="700">Wins</text>
+  <text x="1195" y="396" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="700">Losses</text>
+
+  <rect x="140" y="418" width="1120" height="56" fill="#FFFFFF"/>
+  <rect x="140" y="474" width="1120" height="56" fill="#F2F2F2"/>
+  <rect x="140" y="530" width="1120" height="56" fill="#FFFFFF"/>
+  <rect x="140" y="586" width="1120" height="56" fill="#F2F2F2"/>
+  <rect x="140" y="642" width="1120" height="56" fill="#FFFFFF"/>
+
+  <g fill="#2B3743" font-family="Arial, sans-serif" font-size="15">
+    <text x="210" y="452" text-anchor="middle">1</text>
+    <text x="390" y="452" text-anchor="middle">BU Ozone Pilots</text>
+    <text x="640" y="452" text-anchor="middle">New England</text>
+    <text x="870" y="452" text-anchor="middle">Metro Boston DI</text>
+    <text x="1080" y="452" text-anchor="middle">24</text>
+    <text x="1195" y="452" text-anchor="middle">3</text>
+
+    <text x="210" y="508" text-anchor="middle">2</text>
+    <text x="390" y="508" text-anchor="middle">Brownian Motion</text>
+    <text x="640" y="508" text-anchor="middle">New England</text>
+    <text x="870" y="508" text-anchor="middle">Greater New England DI</text>
+    <text x="1080" y="508" text-anchor="middle">22</text>
+    <text x="1195" y="508" text-anchor="middle">5</text>
+
+    <text x="210" y="564" text-anchor="middle">3</text>
+    <text x="390" y="564" text-anchor="middle">UNC (Darkside)</text>
+    <text x="640" y="564" text-anchor="middle">Atlantic Coast</text>
+    <text x="870" y="564" text-anchor="middle">Carolina DI</text>
+    <text x="1080" y="564" text-anchor="middle">21</text>
+    <text x="1195" y="564" text-anchor="middle">4</text>
+
+    <text x="210" y="620" text-anchor="middle">4</text>
+    <text x="390" y="620" text-anchor="middle">Cal Poly-SLO</text>
+    <text x="640" y="620" text-anchor="middle">Southwest</text>
+    <text x="870" y="620" text-anchor="middle">SoCal DI</text>
+    <text x="1080" y="620" text-anchor="middle">19</text>
+    <text x="1195" y="620" text-anchor="middle">6</text>
+
+    <text x="210" y="676" text-anchor="middle">5</text>
+    <text x="390" y="676" text-anchor="middle">Colorado (Mamabird)</text>
+    <text x="640" y="676" text-anchor="middle">South Central</text>
+    <text x="870" y="676" text-anchor="middle">Rocky Mountain DI</text>
+    <text x="1080" y="676" text-anchor="middle">18</text>
+    <text x="1195" y="676" text-anchor="middle">7</text>
+  </g>
+
+  <rect x="520" y="776" width="360" height="46" rx="23" fill="white" stroke="#D6E3EF"/>
+  <text x="700" y="805" text-anchor="middle" fill="#4C637A" font-family="Arial, sans-serif" font-size="15" font-weight="700">
+    Page 1 of 8
+  </text>
+
+  <defs>
+    <linearGradient id="nav" x1="700" y1="0" x2="700" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6A93D4"/>
+      <stop offset="1" stop-color="#003366"/>
+    </linearGradient>
+  </defs>
+</svg>

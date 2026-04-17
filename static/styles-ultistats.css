@@ -535,18 +535,65 @@ body {
     padding: 15px;
     text-align: center;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    box-sizing: border-box;
   }
   
-  .video-card iframe {
+  .video-link {
+    position: relative;
+    display: block;
     width: 100%;
-    height: 200px;
+    max-width: 100%;
+    overflow: hidden;
     border-radius: 8px;
+    background: #16324f;
+    text-decoration: none;
+    aspect-ratio: 16 / 9;
+  }
+
+  .video-link::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.08));
+    transition: opacity 0.25s ease;
+  }
+
+  .video-link:hover::after {
+    opacity: 0.85;
+  }
+
+  .video-link img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .play-badge {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 14px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.92);
+    color: #0d3f78;
+    font-size: 0.92rem;
+    font-weight: 700;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+    max-width: calc(100% - 32px);
   }
   
   .video-card p {
     margin-top: 10px;
     font-size: 1rem;
     color: #555;
+    overflow-wrap: anywhere;
   }
 /* end home.html */
 
